@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Vitor.Dev | Portfólio</title>
+
+		<link rel="stylesheet" href="./css/fonts.css" />
+		<script src="https://cdn.tailwindcss.com"></script>
+		<script src="/public/js/script.js" defer></script>
+	</head>
+	<body class="bg-black overflow-x-hidden">
+		<header class="h-[65px] flex items-center justify-center px-10">
+			<div class="flex items-center justify-between w-full max-w-[925px]">
+				<!--Logo_Name-->
+				<p class="text-white font-[CRONDE-Regular] text-2xl">Vitor.Dev</p>
+
+				<!-- Botão Menu DropDown Mobile -->
+				<button id="menuBtn" class="md:hidden flex flex-col gap-1">
+					<span class="w-6 h-0.5 bg-white block"></span>
+					<span class="w-6 h-0.5 bg-white block"></span>
+					<span class="w-6 h-0.5 bg-white block"></span>
+				</button>
+
+				<!--Menu DropDown Mobile-->
+				<div
+					id="menuMobile"
+					class="fixed top-0 right-0 w-64 h-full bg-black/95 shadow-lg transform translate-x-full transition-transform duration-300 z-50 flex flex-col p-8 gap-6"
+				>
+					<button id="closeMenu" class="text-white text-3xl self-end">×</button>
+
+					<a
+						href="/public/index.html"
+						class="text-white text-lg font-[CRONDE-Regular]"
+						>Home</a
+					>
+					<a
+						href="/public/projects.html"
+						class="text-white text-lg font-[CRONDE-Regular]"
+						>Projetos</a
+					>
+					<a
+						href="/public/habilities.html"
+						class="text-white text-lg font-[CRONDE-Regular]"
+						>> Habilidades</a
+					>
+					<a
+						href="/public/about.html"
+						class="text-white text-lg font-[CRONDE-Regular]"
+						>Sobre</a
+					>
+				</div>
+
+				<!--Nav_Bar_Desktop-->
+				<nav
+					class="text-white hidden md:flex font-[CRONDE-Regular] gap-5 items-center justify-center text-base"
+				>
+					<a class="relative group" href="/public/index.html">
+						Home
+						<span
+							class="absolute left-1/2 -bottom-px h-[0.8px] w-0 bg-white transition-all duration-300 group-hover:w-full -translate-x-1/2"
+						></span>
+					</a>
+					<a class="relative group" href="/public/projects.html">
+						Projetos
+						<span
+							class="absolute left-1/2 -bottom-px h-[0.8px] w-0 bg-white transition-all duration-300 group-hover:w-full -translate-x-1/2"
+						></span>
+					</a>
+					<a class="relative group" href="/public/habilities.html">
+						Habilidades
+						<span
+							class="absolute left-1/2 -bottom-px h-[0.8px] w-full bg-white transition-all duration-300 group-hover:w-full -translate-x-1/2"
+						></span>
+					</a>
+					<a class="relative group" href="/public/about.html">
+						Sobre
+						<span
+							class="absolute left-1/2 -bottom-px h-[0.8px] w-0 bg-white transition-all duration-300 group-hover:w-full -translate-x-1/2"
+						></span>
+					</a>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<!--Title Projects and Line-->
+			<div class="w-full mt-5 px-5">
+				<div class="relative flex items-center w-full">
+					<!-- Linha inteira -->
+					<div class="absolute left-0 right-0 h-[3px] bg-blue-400"></div>
+
+					<!-- Texto posicionado depois do começo da linha -->
+					<h1
+						class="relative bg-black px-4 ml-14 sm:ml-20 md:ml-28 text-white text-3xl sm:text-4xl font-[CRONDE-Regular]"
+					>
+						Habilidades
+					</h1>
+				</div>
+			</div>
+
+			<section class="w-full flex justify-center px-5 mt-10">
+				<div
+					class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-[1200px] w-full"
+				>
+					<!-- Card 1 - Hard Skills -->
+					<div
+						class="relative bg-white/15 backdrop-blur-md border border-cyan-400/40 rounded-xl shadow-lg p-6 neon-box flex flex-col"
+					>
+						<h3 class="text-white text-2xl font-[CRONDE-Regular] mb-4">
+							Hard Skills
+						</h3>
+
+						<p class="text-gray-300 text-base leading-relaxed mb-4">
+							Minhas habilidades técnicas incluem linguagens e ferramentas que
+							utilizo na prática para desenvolver interfaces, sistemas e
+							automações.
+						</p>
+
+						<p class="text-gray-300 text-base font-bold leading-relaxed mb-4">
+							Tecnologias de Front-End:
+						</p>
+
+						<ul class="text-gray-300 space-y-3 mb-4">
+							<li class="flex items-center gap-3">
+								<span class="w-2 h-2 rounded-full bg-blue-400"></span>
+								<strong class="text-white">HTML</strong>
+							</li>
+
+							<li class="flex items-center gap-3">
+								<span class="w-2 h-2 rounded-full bg-blue-400"></span>
+								<strong class="text-white">CSS</strong>
+							</li>
+
+							<li class="flex items-center gap-3">
+								<span class="w-2 h-2 rounded-full bg-blue-400"></span>
+								<strong class="text-white">TailwindCSS</strong>
+							</li>
+
+							<li class="flex items-center gap-3">
+								<span class="w-2 h-2 rounded-full bg-blue-400"></span>
+								<strong class="text-white">Bootstrap</strong>
+							</li>
+
+							<li class="flex items-center gap-3">
+								<span class="w-2 h-2 rounded-full bg-blue-400"></span>
+								<strong class="text-white">JavaScript</strong>
+							</li>
+						</ul>
+
+						<p class="text-gray-300 text-base font-bold leading-relaxed mb-4">
+							Linguagens de Programação:
+						</p>
+
+						<ul class="text-gray-300 space-y-3 mb-4">
+							<li class="flex items-center gap-3">
+								<span class="w-2 h-2 rounded-full bg-blue-400"></span>
+								<strong class="text-white">Python</strong>
+							</li>
+
+							<li class="flex items-center gap-3">
+								<span class="w-2 h-2 rounded-full bg-blue-400"></span>
+								<strong class="text-white">Java</strong>
+							</li>
+						</ul>
+
+						<p class="text-gray-300 text-base font-bold leading-relaxed mb-4">
+							Banco e Manipulação de Dados:
+						</p>
+
+						<ul class="text-gray-300 space-y-3">
+							<li class="flex items-center gap-3">
+								<span class="w-2 h-2 rounded-full bg-blue-400"></span>
+								<strong class="text-white">SQL</strong>
+							</li>
+						</ul>
+					</div>
+
+					<!-- Card 2 - Soft Skills -->
+					<div
+						class="relative bg-white/15 backdrop-blur-md border border-cyan-400/40 rounded-xl shadow-lg p-6 neon-box flex flex-col"
+					>
+						<h3 class="text-white text-2xl font-[CRONDE-Regular] mb-4">
+							Soft Skills
+						</h3>
+
+						<p class="text-gray-300 text-base leading-relaxed mb-4">
+							Competências comportamentais que me ajudam a trabalhar melhor em
+							equipe, organizar projetos e entregar resultados.
+						</p>
+
+						<ul class="text-gray-300 space-y-3">
+							<li>
+								<strong class="text-blue-400">Comunicação</strong><br />
+								Capacidade de transmitir ideias com clareza e adaptar a
+								linguagem ao público.
+							</li>
+							<li>
+								<strong class="text-blue-400">Trabalho em equipe</strong><br />
+								Colaboração eficiente, escuta ativa e suporte ao grupo.
+							</li>
+							<li>
+								<strong class="text-blue-400">Aprendizado Rápido</strong><br />
+								Facilidade em absorver novas tecnologias. Me permitiu evoluir
+								rapidamente como dev e na faculdade.
+							</li>
+							<li>
+								<strong class="text-blue-400">Resolução de Problemas</strong
+								><br />
+								Análise objetiva das causas e criação de soluções, utilizando
+								ferramentas como o Diagrama de Ishikawa.
+							</li>
+						</ul>
+					</div>
+
+					<!-- Card 3 - Workflow-->
+					<div
+						class="relative bg-white/15 backdrop-blur-md border border-cyan-400/40 rounded-xl shadow-lg p-6 neon-box flex flex-col"
+					>
+						<h3 class="text-white text-2xl font-[CRONDE-Regular] mb-4">
+							Workflow
+						</h3>
+
+						<p class="text-gray-300 text-base leading-relaxed mb-4">
+							Meu fluxo de trabalho segue um processo organizado para
+							transformar ideias em projetos funcionais.
+						</p>
+
+						<ul class="text-gray-300 space-y-3">
+							<li>
+								<strong class="text-blue-400">Planejamento</strong><br />
+								Definição de requisitos e objetivos. Estruturo tudo antes de
+								partir para o código.
+							</li>
+							<li>
+								<strong class="text-blue-400">Organização</strong><br />
+								Mantenho uma arquitetura limpa, padronização, boas práticas e
+								separação clara de responsabilidades.
+							</li>
+							<li>
+								<strong class="text-blue-400">Prototipação</strong><br />
+								Crio esboços conceituais e fluxos lógicos para visualizar o
+								funcionamento da aplicação antes de codar.
+							</li>
+							<li>
+								<strong class="text-blue-400">Debug e Ajustes Finais</strong
+								><br />
+								Valido funcionalidades, corrijo erros e ajusto detalhes para
+								entregar um resultado consistente e funcional.
+							</li>
+						</ul>
+					</div>
+
+					<!-- Card 4 - Ferramentas -->
+					<div
+						class="relative bg-white/15 backdrop-blur-md border border-cyan-400/40 rounded-xl shadow-lg p-6 neon-box flex flex-col"
+					>
+						<h3 class="text-white text-2xl font-[CRONDE-Regular] mb-4">
+							Ferramentas
+						</h3>
+
+						<p class="text-gray-300 text-base leading-relaxed mb-4">
+							As ferramentas que utilizo no dia a dia me ajudam a organizar,
+							criar e manter meus projetos com eficiência.
+						</p>
+
+						<ul class="text-gray-300 space-y-3">
+							<li>
+								<strong class="text-blue-400">VSCode</strong><br />
+								Editor principal para desenvolvimento web, rápido e flexível.
+							</li>
+							<li>
+								<strong class="text-blue-400">Git & GitHub</strong><br />
+								Controle de versão e fluxo de trabalho organizado para projetos.
+							</li>
+							<li>
+								<strong class="text-blue-400">IntelliJ IDEA</strong><br />
+								Ambiente robusto para projetos Java com recursos avançados.
+							</li>
+							<li>
+								<strong class="text-blue-400">XAMPP</strong><br />
+								Ambiente local para rodar servidor, PHP e MySQL de forma
+								prática.
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="relative w-full py-8 mt-10 bg-black">
+			<!-- Linha luminosa -->
+			<div
+				class="absolute top-0 left-0 w-full h-[3px] bg-gradient-to-r from-transparent via-blue-400 to-transparent opacity-60"
+			></div>
+
+			<!--Social links-->
+			<div class="flex gap-5 justify-center mb-3">
+				<a
+					href="https://github.com/Vitor-Bernardes"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="relative group w-10 h-10 flex items-center justify-center"
+				>
+					<!-- Bolha animada -->
+					<span
+						class="absolute w-0 h-0 bg-blue-600/65 rounded-full transition-all duration-300 group-hover:w-12 group-hover:h-12 group-hover:opacity-100 opacity-0"
+					>
+					</span>
+
+					<!-- Ícone -->
+					<img
+						src="/public/assets/icons/github-24.png"
+						class="w-8 h-8 relative z-10"
+					/>
+				</a>
+
+				<a
+					href="https://www.linkedin.com/in/vitor-bernardes-217b6a292"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="relative group w-10 h-10 flex items-center justify-center"
+				>
+					<span
+						class="absolute w-0 h-0 bg-blue-600/65 rounded-full transition-all duration-300 group-hover:w-12 group-hover:h-12 group-hover:opacity-100 opacity-0"
+					>
+					</span>
+
+					<img
+						src="/public/assets/icons/linkedin-24.png"
+						class="w-8 h-8 relative z-10"
+					/>
+				</a>
+			</div>
+
+			<!--Direitos autorais-->
+			<div
+				class="max-w-[1200px] mx-auto px-6 text-center text-white/60 text-sm"
+			>
+				© 2025 Vitor.Dev • Todos os direitos reservados
+			</div>
+		</footer>
+	</body>
+</html>

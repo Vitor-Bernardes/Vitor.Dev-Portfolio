@@ -1,0 +1,17 @@
+@font-face {
+	font-family: "CRONDE-Regular";
+	src: url("/public/assets/fonts/CRONDERegular.ttf") format("truetype");
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "KASTROO-Regular";
+	src: url("/public/assets/fonts/KASTROO.ttf") format("truetype");
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "CAMPANA-Regular";
+	src: url("/public/assets/fonts/CampanaScript.otf") format("truetype");
+	font-weight: normal;
+}

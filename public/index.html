@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Vitor.Dev | Portfólio</title>
+
+		<link rel="stylesheet" href="./css/fonts.css" />
+		<script src="https://cdn.tailwindcss.com"></script>
+		<script src="/public/js/script.js" defer></script>
+	</head>
+	<body class="bg-black overflow-x-hidden">
+		<header class="h-[65px] flex items-center justify-center px-10">
+			<div class="flex items-center justify-between w-full max-w-[925px]">
+				<!--Logo_Name-->
+				<p class="text-white font-[CRONDE-Regular] text-2xl">Vitor.Dev</p>
+
+				<!-- Botão Menu DropDown Mobile -->
+				<button id="menuBtn" class="md:hidden flex flex-col gap-1">
+					<span class="w-6 h-0.5 bg-white block"></span>
+					<span class="w-6 h-0.5 bg-white block"></span>
+					<span class="w-6 h-0.5 bg-white block"></span>
+				</button>
+
+				<!--Menu DropDown Mobile-->
+				<div
+					id="menuMobile"
+					class="fixed top-0 right-0 w-64 h-full bg-black/95 shadow-lg transform translate-x-full transition-transform duration-300 z-50 flex flex-col p-8 gap-6"
+				>
+					<button id="closeMenu" class="text-white text-3xl self-end">×</button>
+
+					<a
+						href="/public/index.html"
+						class="text-white text-lg font-[CRONDE-Regular]"
+						>> Home</a
+					>
+					<a
+						href="/public/projects.html"
+						class="text-white text-lg font-[CRONDE-Regular]"
+						>Projetos</a
+					>
+					<a
+						href="/public/habilities.html"
+						class="text-white text-lg font-[CRONDE-Regular]"
+						>Habilidades</a
+					>
+					<a
+						href="/public/about.html"
+						class="text-white text-lg font-[CRONDE-Regular]"
+						>Sobre</a
+					>
+				</div>
+
+				<!--Nav_Bar_Desktop-->
+				<nav
+					class="text-white hidden md:flex font-[CRONDE-Regular] gap-5 items-center justify-center text-base"
+				>
+					<a class="relative group" href="/public/index.html">
+						Home
+						<span
+							class="absolute left-1/2 -bottom-px h-[0.8px] w-full bg-white transition-all duration-300 group-hover:w-full -translate-x-1/2"
+						></span>
+					</a>
+					<a class="relative group" href="/public/projects.html">
+						Projetos
+						<span
+							class="absolute left-1/2 -bottom-px h-[0.8px] w-0 bg-white transition-all duration-300 group-hover:w-full -translate-x-1/2"
+						></span>
+					</a>
+					<a class="relative group" href="/public/habilities.html">
+						Habilidades
+						<span
+							class="absolute left-1/2 -bottom-px h-[0.8px] w-0 bg-white transition-all duration-300 group-hover:w-full -translate-x-1/2"
+						></span>
+					</a>
+					<a class="relative group" href="/public/about.html">
+						Sobre
+						<span
+							class="absolute left-1/2 -bottom-px h-[0.8px] w-0 bg-white transition-all duration-300 group-hover:w-full -translate-x-1/2"
+						></span>
+					</a>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<div class="relative w-full h-[600px]">
+				<!-- Imagem de fundo -->
+				<img
+					class="w-full h-full object-cover"
+					src="/public/assets/img/home_name_bg.jpg"
+					alt="bg-image"
+				/>
+
+				<!-- Gradiente no topo -->
+				<div
+					class="absolute top-0 left-0 w-full h-20 bg-gradient-to-b from-black/90 to-transparent"
+				></div>
+
+				<!-- Gradiente na parte inferior -->
+				<div
+					class="absolute bottom-0 left-0 w-full h-20 bg-gradient-to-t from-black/90 to-transparent"
+				></div>
+
+				<!--Container do home_name and decription-->
+				<div class="absolute inset-0 flex items-center px-12 md:px-52">
+					<div class="flex flex-col">
+						<h1
+							class="text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-white font-[CRONDE-Regular] leading-[0.9] text-left"
+						>
+							<span class="block">Vitor</span>
+							<span class="block">Bernardes</span>
+						</h1>
+
+						<p class="text-blue-400 text-sm sm:text-base md:text-lg">
+							-- Desenvolvedor Fullstack --
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- Linha luminosa -->
+			<div
+				class="w-full h-[3px] bg-gradient-to-r from-transparent via-blue-400 to-transparent opacity-60 mt-10"
+			></div>
+
+			<!-- Seção de conteúdo 1 -->
+			<section class="w-full flex justify-center px-5 mt-10">
+				<div
+					class="relative bg-white/15 backdrop-blur-md border border-cyan-400/40 rounded-xl shadow-lg p-8 max-w-[900px] w-full flex flex-col md:flex-row gap-8 neon-box"
+				>
+					<!-- Imagem Lateral -->
+					<div class="flex justify-center items-center w-full md:w-1/3">
+						<img
+							src="/public/assets/icons/code_characters.png"
+							alt="icone dev"
+							class="w-40 h-40 object-contain opacity-90"
+						/>
+					</div>
+
+					<!-- Texto -->
+					<div class="flex flex-col justify-center w-full md:w-2/3">
+						<h2 class="text-white text-3xl font-[CRONDE-Regular] mb-4">
+							Transformando idéias em código!
+						</h2>
+
+						<p class="text-gray-300 text-lg leading-relaxed">
+							Sou um desenvolvedor Fullstack movido pelo desafio de transformar
+							ideias em experiências digitais. Neste portfólio, apresento meus
+							projetos mais significativos, as ferramentas que utilizo e a
+							evolução da minha jornada na área.
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<!-- Seção de conteúdo 2 -->
+			<section class="w-full flex justify-center px-5 mt-10">
+				<div
+					class="relative bg-white/15 backdrop-blur-md border border-cyan-400/40 rounded-xl shadow-lg p-8 max-w-[900px] w-full flex flex-col md:flex-row gap-8 neon-box"
+				>
+					<!-- Texto -->
+					<div
+						class="flex flex-col justify-center w-full md:w-2/3 pl-5 md:pl-10"
+					>
+						<h2 class="text-white text-3xl font-[CRONDE-Regular] mb-4">
+							Além do código!
+						</h2>
+
+						<p class="text-gray-300 text-lg leading-relaxed">
+							Busco sempre um processo de trabalho claro e eficiente. Começo
+							analisando o problema, definindo o caminho ideal e só então
+							desenvolvendo a solução. Meu objetivo é criar projetos bem
+							estruturados, performáticos e prontos para escalar.
+						</p>
+					</div>
+
+					<!-- Imagem Lateral -->
+					<div class="flex justify-center items-center w-full md:w-1/3">
+						<img
+							src="/public/assets/icons/table_programming.png"
+							alt="icone dev"
+							class="w-40 h-40 object-contain opacity-90"
+						/>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="relative w-full py-8 mt-10 bg-black">
+			<!-- Linha luminosa -->
+			<div
+				class="absolute top-0 left-0 w-full h-[3px] bg-gradient-to-r from-transparent via-blue-400 to-transparent opacity-60"
+			></div>
+
+			<!--Social links-->
+			<div class="flex gap-5 justify-center mb-3">
+				<a
+					href="https://github.com/Vitor-Bernardes"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="relative group w-10 h-10 flex items-center justify-center"
+				>
+					<!-- Bolha animada -->
+					<span
+						class="absolute w-0 h-0 bg-blue-600/65 rounded-full transition-all duration-300 group-hover:w-12 group-hover:h-12 group-hover:opacity-100 opacity-0"
+					>
+					</span>
+
+					<!-- Ícone -->
+					<img
+						src="/public/assets/icons/github-24.png"
+						class="w-8 h-8 relative z-10"
+					/>
+				</a>
+
+				<a
+					href="https://www.linkedin.com/in/vitor-bernardes-217b6a292"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="relative group w-10 h-10 flex items-center justify-center"
+				>
+					<span
+						class="absolute w-0 h-0 bg-blue-600/65 rounded-full transition-all duration-300 group-hover:w-12 group-hover:h-12 group-hover:opacity-100 opacity-0"
+					>
+					</span>
+
+					<img
+						src="/public/assets/icons/linkedin-24.png"
+						class="w-8 h-8 relative z-10"
+					/>
+				</a>
+			</div>
+
+			<!--Direitos autorais-->
+			<div
+				class="max-w-[1200px] mx-auto px-6 text-center text-white/60 text-sm"
+			>
+				© 2025 Vitor.Dev • Todos os direitos reservados
+			</div>
+		</footer>
+	</body>
+</html>
