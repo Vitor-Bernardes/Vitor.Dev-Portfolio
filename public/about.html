@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Vitor.Dev | Portfólio</title>
+
+		<link rel="stylesheet" href="./css/fonts.css" />
+		<script src="https://cdn.tailwindcss.com"></script>
+		<script src="/public/js/script.js" defer></script>
+	</head>
+	<body class="bg-black overflow-x-hidden">
+		<header class="h-[65px] flex items-center justify-center px-10">
+			<div class="flex items-center justify-between w-full max-w-[925px]">
+				<!--Logo_Name-->
+				<p class="text-white font-[CRONDE-Regular] text-2xl">Vitor.Dev</p>
+
+				<!-- Botão Menu DropDown Mobile -->
+				<button id="menuBtn" class="md:hidden flex flex-col gap-1">
+					<span class="w-6 h-0.5 bg-white block"></span>
+					<span class="w-6 h-0.5 bg-white block"></span>
+					<span class="w-6 h-0.5 bg-white block"></span>
+				</button>
+
+				<!--Menu DropDown Mobile-->
+				<div
+					id="menuMobile"
+					class="fixed top-0 right-0 w-64 h-full bg-black/95 shadow-lg transform translate-x-full transition-transform duration-300 z-50 flex flex-col p-8 gap-6"
+				>
+					<button id="closeMenu" class="text-white text-3xl self-end">×</button>
+
+					<a href="/index.html" class="text-white text-lg font-[CRONDE-Regular]"
+						>Home</a
+					>
+					<a
+						href="/public/projects.html"
+						class="text-white text-lg font-[CRONDE-Regular]"
+						>Projetos</a
+					>
+					<a
+						href="/public/habilities.html"
+						class="text-white text-lg font-[CRONDE-Regular]"
+						>Habilidades</a
+					>
+					<a
+						href="/public/about.html"
+						class="text-white text-lg font-[CRONDE-Regular]"
+						>> Sobre</a
+					>
+				</div>
+
+				<!--Nav_Bar_Desktop-->
+				<nav
+					class="text-white hidden md:flex font-[CRONDE-Regular] gap-5 items-center justify-center text-base"
+				>
+					<a class="relative group" href="/index.html">
+						Home
+						<span
+							class="absolute left-1/2 -bottom-px h-[0.8px] w-0 bg-white transition-all duration-300 group-hover:w-full -translate-x-1/2"
+						></span>
+					</a>
+					<a class="relative group" href="/public/projects.html">
+						Projetos
+						<span
+							class="absolute left-1/2 -bottom-px h-[0.8px] w-0 bg-white transition-all duration-300 group-hover:w-full -translate-x-1/2"
+						></span>
+					</a>
+					<a class="relative group" href="/public/habilities.html">
+						Habilidades
+						<span
+							class="absolute left-1/2 -bottom-px h-[0.8px] w-0 bg-white transition-all duration-300 group-hover:w-full -translate-x-1/2"
+						></span>
+					</a>
+					<a class="relative group" href="/public/about.html">
+						Sobre
+						<span
+							class="absolute left-1/2 -bottom-px h-[0.8px] w-full bg-white transition-all duration-300 group-hover:w-full -translate-x-1/2"
+						></span>
+					</a>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<div class="w-full mt-5 px-5">
+				<div class="relative flex items-center w-full">
+					<!-- Linha inteira -->
+					<div class="absolute left-0 right-0 h-[3px] bg-blue-400"></div>
+
+					<!-- Texto posicionado depois do começo da linha -->
+					<h1
+						class="relative bg-black px-4 ml-14 sm:ml-20 md:ml-28 text-white text-3xl sm:text-4xl font-[CRONDE-Regular]"
+					>
+						Sobre
+					</h1>
+				</div>
+			</div>
+
+			<!-- Sobre -->
+			<section class="w-full mt-16 px-5 flex justify-center">
+				<div
+					class="relative bg-white/15 backdrop-blur-md border border-cyan-400/40 rounded-2xl shadow-lg p-10 max-w-[700px] text-center"
+				>
+					<!-- Foto -->
+					<img
+						src="/public/assets/img/profile_img.jpg"
+						class="w-36 h-36 object-cover rounded-full mx-auto border border-white/10 shadow-lg"
+					/>
+
+					<!-- Título -->
+					<h1 class="text-white text-4xl font-[CRONDE-Regular] mt-6 mb-4">
+						Sobre Mim
+					</h1>
+
+					<!-- Texto -->
+					<p class="text-gray-300 text-lg leading-relaxed mb-6">
+						Prazer, me chamo Vitor Bernardes, estudante de Ciência da
+						Computação. Atualmente desenvolvendo projetos que reforçam minha
+						base em programação e construção de aplicações. Tenho interesse em
+						desenvolvimento de software, melhoria contínua e boas práticas de
+						código, buscando sempre aprender novas tecnologias e aprimorar
+						minhas habilidades.
+					</p>
+
+					<!-- Informações -->
+					<div class="text-gray-300 space-y-2 mb-8">
+						<p><b>Faculdade:</b> Ciência da Computação</p>
+						<p><b>Local:</b> Interior de São Paulo</p>
+						<p>
+							<b>Objetivo:</b> Quero conquistar um estágio na área de
+							desenvolvimento, aprendendo com profissionais experientes e
+							evoluindo minhas habilidades enquanto contribuo com o time.
+						</p>
+					</div>
+
+					<!-- Tecnologias -->
+					<h2 class="text-white text-2xl mb-4 font-[CRONDE-Regular]">
+						Tecnologias usadas nesse portfólio<span class="font-sans">:</span>
+					</h2>
+
+					<div class="flex justify-center gap-6 flex-wrap text-gray-300">
+						<span>HTML</span>
+						<span>CSS</span>
+						<span>TailwindCSS</span>
+						<span>JavaScript</span>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="relative w-full py-8 mt-10 bg-black">
+			<!-- Linha luminosa -->
+			<div
+				class="absolute top-0 left-0 w-full h-[3px] bg-gradient-to-r from-transparent via-blue-400 to-transparent opacity-60"
+			></div>
+
+			<!--Social links-->
+			<div class="flex gap-5 justify-center mb-3">
+				<a
+					href="https://github.com/Vitor-Bernardes"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="relative group w-10 h-10 flex items-center justify-center"
+				>
+					<!-- Bolha animada -->
+					<span
+						class="absolute w-0 h-0 bg-blue-600/65 rounded-full transition-all duration-300 group-hover:w-12 group-hover:h-12 group-hover:opacity-100 opacity-0"
+					>
+					</span>
+
+					<!-- Ícone -->
+					<img
+						src="/public/assets/icons/github-24.png"
+						class="w-8 h-8 relative z-10"
+					/>
+				</a>
+
+				<a
+					href="https://www.linkedin.com/in/vitor-bernardes-217b6a292"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="relative group w-10 h-10 flex items-center justify-center"
+				>
+					<span
+						class="absolute w-0 h-0 bg-blue-600/65 rounded-full transition-all duration-300 group-hover:w-12 group-hover:h-12 group-hover:opacity-100 opacity-0"
+					>
+					</span>
+
+					<img
+						src="/public/assets/icons/linkedin-24.png"
+						class="w-8 h-8 relative z-10"
+					/>
+				</a>
+			</div>
+
+			<!--Direitos autorais-->
+			<div
+				class="max-w-[1200px] mx-auto px-6 text-center text-white/60 text-sm"
+			>
+				© 2025 Vitor.Dev • Todos os direitos reservados
+			</div>
+		</footer>
+	</body>
+</html>
