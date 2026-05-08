@@ -59,8 +59,7 @@ Inclui menu mobile, animações suaves e componentes reorganizados para telas pe
 
 🌍 Deploy
 
-O site pode ser visualizado através do link: https://vitor-bernardes.github.io/vitor-dev-portfolio/
-👉 --
+O site pode ser visualizado através do link: 👉 https://vitor-bernardes.github.io/vitor-dev-portfolio/
 
 🧑‍💻 Autor
 
