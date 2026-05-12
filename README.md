@@ -1,74 +1,140 @@
-Portfólio — Vitor.Dev: Meu portfólio pessoal desenvolvido para apresentar minhas habilidades, projetos, trajetória e objetivos como desenvolvedor.
+# 🚀 Vitor.Dev — Personal Portfolio
 
-📌 Visão Geral
+🌎 Language / Idioma:  
+[🇺🇸 English](README.md) | [🇧🇷 Português](README-ptBR.md)
 
-Este portfólio foi criado com foco em performance, clareza e um design moderno com efeitos neon suaves.
-Além de apresentar meus projetos, ele também funciona como uma forma de colocar em prática meus conhecimentos em desenvolvimento web.
+---
 
-O site conta com:
+A modern personal portfolio developed to showcase my skills, projects, journey, and goals as a software developer.
 
-    Página Home
-    Página Projetos
-    Página Habilidades
-    Página Sobre
-    Menu responsivo com navegação fluida
-    Layout 100% responsivo
+---
 
-🛠️ Tecnologias Utilizadas:
+# 📌 Overview
 
-🧩 Front-end
+This portfolio was built with a strong focus on performance, clean structure, responsiveness, and modern UI design with subtle neon aesthetics.
 
-    HTML5
-    CSS3
-    TailwindCSS
-    JavaScript
+Besides presenting my projects and skills, the website also serves as a practical way to apply and improve my front-end development knowledge.
 
-📦 Ferramentas de Desenvolvimento
+The portfolio includes:
 
-    Visual Studio Code
-    Git & GitHub
+- 🏠 Home Page
+- 📂 Projects Page
+- 🧠 Skills Page
+- 👤 About Page
+- 📱 Responsive Navigation Menu
+- ⚡ Smooth Navigation & Animations
+- 💻 Fully Responsive Layout
 
-📱 Responsividade - O design foi feito para se adaptar perfeitamente a:
+---
 
-    Smartphones
-    Tablets
-    Monitores ultrawide
-    Notebooks
+# 🛠️ Technologies Used
 
-Inclui menu mobile, animações suaves e componentes reorganizados para telas pequenas.
+## 🧩 Front-end
 
-🎨 Design - O visual do projeto segue uma identidade baseada em:
+- HTML5
+- CSS3
+- TailwindCSS
+- JavaScript
 
-    Estética neon suave
-    Bordas iluminadas
-    Ícones personalizados
-    Tipografia CRONDE-Regular
+---
 
-📄 Páginas do Portfólio:
+## 📦 Development Tools
 
-    🏠 Home - Apresentação inicial com frases de impacto e visual moderno.
-    📂 Projetos - Mostra alguns dos meus projetos recentes, com cards organizados e links para GitHub (caso existam).
-    🧠 Habilidades - Dividido em:
-        - Hard Skills
-        - Soft Skills
-        - Workflow
-        - Ferramentas
-    👤 Sobre Mim - Informações sobre minha trajetória, objetivos e tecnologias usadas no site.
+- Visual Studio Code
+- Git
+- GitHub
 
-🚀 Objetivo do Portfólio - Apresentar minhas habilidades e demonstrar minha evolução como desenvolvedor, buscando oportunidades como estagiário em desenvolvimento de software.
+---
 
-🌍 Deploy
+# 📱 Responsiveness
 
-O site pode ser visualizado através do link: 👉 https://vitor-bernardes.github.io/vitor-dev-portfolio/
+The entire layout was designed to adapt seamlessly to different screen sizes, including:
 
-🧑‍💻 Autor
+- Smartphones
+- Tablets
+- Notebooks
+- Ultrawide Monitors
 
-Vitor Bernardes
-Desenvolvedor em formação | Ciência da Computação
-Focado em evolução constante e em boas práticas de desenvolvimento.
+The project also includes:
 
-📬 Contato:
+- Responsive mobile menu
+- Adaptive components
+- Smooth transitions and animations
+- Optimized spacing for smaller screens
 
-📧 Email: vitorsbc589@gmail.com
-🔗 LinkedIn: www.linkedin.com/in/vitor-bernardes-217b6a292
-💻 GitHub: https://github.com/Vitor-Bernardes
+---
+
+# 🎨 Design Concept
+
+The visual identity of the project follows a modern style based on:
+
+- Soft neon aesthetics
+- Glowing borders and effects
+- Custom icons
+- CRONDE-Regular typography
+- Minimalist dark interface
+
+---
+
+# 📄 Portfolio Sections
+
+## 🏠 Home
+
+Landing section with modern visuals, introduction text, and highlighted presentation.
+
+---
+
+## 📂 Projects
+
+Displays some of my recent projects using organized cards with GitHub links when available.
+
+---
+
+## 🧠 Skills
+
+Structured into multiple categories:
+
+- Hard Skills
+- Soft Skills
+- Workflow
+- Development Tools
+
+---
+
+## 👤 About Me
+
+Contains information about my journey, goals, technologies, and overall vision as a developer.
+
+---
+
+# 🎯 Portfolio Goal
+
+The purpose of this portfolio is to demonstrate my growth as a developer, showcase my projects, and support my search for opportunities as a Software Development Intern.
+
+---
+
+# 🌍 Website
+
+🔗 Portfolio Website:
+
+[Vitor.Dev Portfolio](https://vitor-bernardes.github.io/Vitor.Dev-Portfolio/)
+
+---
+
+# 👨‍💻 Author
+
+## Vitor Bernardes
+
+Computer Science Student focused on continuous improvement, clean code practices, and software development.
+
+---
+
+# 📬 Contact
+
+- 📧 Email: vitorsbc589@gmail.com
+- 🔗 LinkedIn: www.linkedin.com/in/vitor-bernardes-217b6a292
+- 💻 GitHub: https://github.com/Vitor-Bernardes
+
+---
+
+© 2026 Vitor.Dev — All Rights Reserved.
